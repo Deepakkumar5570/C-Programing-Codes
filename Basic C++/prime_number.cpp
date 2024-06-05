@@ -5,7 +5,7 @@ int main(){
     int n;
     cout<<"enter your number:";
     cin>>n;
-    //Appoach 1
+    //Approach 1
     /*if(n%2==0){
         cout<<" note prime";
     }else{
