@@ -57,6 +57,7 @@ void print(node *head)
         temp = temp->next;
     }
 }
+
 int main()
 {
     node *head = NULL;
@@ -72,6 +73,6 @@ int main()
     print(head);
     cout<<endl;
     cout<<"element search :"<<searchKey(head,9);
-
+    
     return 0;
 }
